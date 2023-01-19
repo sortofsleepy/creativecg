@@ -23,10 +23,20 @@ h1, h2 {
 }
 
 h2 {
-    font-weight: 400;
+    font-size:120%;
 }
 
 a, p {
-    font-size: 120%;
+    font-size: 110%;
     font-weight: 400;
+}
+
+a {
+    color:black;
+    transition:color 0.5s ease;
+}
+
+a:hover {
+    color:red;
+    transition:color 0.5s ease;
 }

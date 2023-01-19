@@ -2,13 +2,14 @@
     import external_sources from "../external_sources";
 </script>
 
-<section class="intro container mx-auto">
-    <h1 class="lg:text-8xl sm:text-5xl">GraphicallyCreative</h1>
+<section class="container mx-auto px-72">
+    <h1 class="lg:text-8xl sm:text-5xl">CreativeCG</h1>
 
-
-    <p class="py-4">
+    <p class="py-4 intro">
         Hello! If you've landed here then welcome. This is just a personal site of notes and snippets of things I've come across over the years on a variety of topics
         mostly related to creative coding, all arranged into one place for easy reference. While mostly for personal use, hopefully it can prove useful to you as well.
+
+        Styled in the format of @tokeru's CGWiki, there are pages of topics + examples where possible.
     </p>
 
     <h1 class="mt-8">
@@ -24,7 +25,7 @@
     </ul>
 </section>
 
-<section class="container mx-auto other-resources">
+<section class="container mx-auto px-72">
 
     <h1 class="mt-8">
         Other Resources
@@ -36,3 +37,6 @@
     </ul>
 </section>
 
+<style lang="scss">
+
+</style>
