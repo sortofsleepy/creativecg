@@ -32,7 +32,7 @@ a, p {
 }
 
 a {
-    color:black;
+    color: rgb(96 165 250);
     transition:color 0.5s ease;
 }
 
