@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>CreativeCG</title>
-		<meta charset="utf-8" />
-        <meta name="description" content="CreativeCG is the notebook of Joseph Chow containing links and brief notes about various topics."/>
-        <meta name="keywords" content="Joseph Chow, blog, note, houdini, vulkan, unreal"/>
-        <meta name="distribution" content="global"/>
-        <meta name="author" content="Joseph Chow"/>
+<head>
+    <title>CreativeCG</title>
+    <meta charset="utf-8"/>
+    <meta name="description"
+          content="CreativeCG is the notebook of Joseph Chow containing links and brief notes about various topics."/>
+    <meta name="keywords" content="Joseph Chow, blog, note, houdini, vulkan, unreal"/>
+    <meta name="distribution" content="global"/>
+    <meta name="author" content="Joseph Chow"/>
 
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-    <section class="container mx-auto px-72 py-10">
-        %sveltekit.body%
-    </section>
+    <link rel="icon" href="%sveltekit.assets%/favicon.png"/>
+    <meta name="viewport" content="width=device-width"/>
+    %sveltekit.head%
+</head>
+<body data-sveltekit-preload-data="hover">
+<section class="container mx-auto px-72 py-10">
+    %sveltekit.body%
+</section>
 
-	<script>
+<script>
+    window.onload = () => {
+        document.fonts.ready.then(res => {
+            if (res.status === "loaded") {
+                document.body.classList.add("loaded")
+            }
+        })
+    }
+</script>
 
-		window.onload = ()=>{
-
-			document.fonts.ready.then(res => {
-				if(res.status === "loaded"){
-					document.body.classList.add("loaded")
-				}
-			})
-		}
-	</script>
-	</body>
+</body>
 </html>
