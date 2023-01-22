@@ -4,7 +4,8 @@
 </script>
 
 <MixPanel/>
-<section class="container mx-auto px-72">
+
+<section class="mx-auto py-10">
     <h1 class="lg:text-8xl sm:text-5xl">CreativeCG</h1>
 
     <p class="py-4 intro">
@@ -14,9 +15,9 @@
         While mostly for personal use, hopefully it can prove useful to you as well.
     </p>
 
-    <h1 class="mt-8">
+    <h2 class="mt-8">
         Some of the topics will include
-    </h1>
+    </h2>
     <ul>
         <li><a href="/webgl">WebGL</a></li>
         <li><a href="/webgpu">WebGPU</a> </li>
@@ -27,18 +28,6 @@
     </ul>
 </section>
 
-<section class="container mx-auto px-72">
 
-    <h1 class="mt-8">
-        Some other great reading around the web
-    </h1>
-    <ul>
-        {#each external_sources as ext_source}
-            <li><a rel="noreferrer" href="{ext_source.url}" target="_blank">{ext_source.name}</a> </li>
-        {/each}
-    </ul>
-</section>
 
-<style lang="scss">
 
-</style>

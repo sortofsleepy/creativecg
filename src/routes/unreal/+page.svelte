@@ -4,16 +4,13 @@
 
 <MixPanel/>
 
-<section class="container mx-auto px-72">
-    <h1 class="lg:text-8xl sm:text-5xl">Unreal Engine</h1>
-
+<section class="mx-auto py-10">
+    <h1 class="lg:text-8xl sm:text-5xl">Unreal</h1>
 
     <div class="py-10">
-        <h3>Contents</h3>
+        <h2>Contents</h2>
         <ul class="page-list">
-            <li>
 
-            </li>
         </ul>
     </div>
 </section>
