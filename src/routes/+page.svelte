@@ -26,6 +26,20 @@
         <li><a href="/houdini">Houdini</a></li>
         <li><a href="/unreal">UnrealEngine</a></li>
     </ul>
+
+    <section class="py-10">
+        <h2 class="mt-8">
+            Tech stack
+        </h2>
+
+        <p>
+            This site is purposely kept fairly simple and straightforward in terms of not just layout but the tech stack.
+            It uses <a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>,
+            <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">TailwindCSS</a> and server-side rendered using
+            <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">Netlify</a>
+        </p>
+
+    </section>
 </section>
 
 

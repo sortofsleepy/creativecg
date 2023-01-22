@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>CreativeCG</title>
 		<meta charset="utf-8" />
         <meta name="description" content="CreativeCG is the notebook of Joseph Chow containing links and brief notes about various topics."/>
         <meta name="keywords" content="Joseph Chow, blog, note, houdini, vulkan, unreal"/>
@@ -15,5 +16,17 @@
     <section class="container mx-auto px-72 py-10">
         %sveltekit.body%
     </section>
+
+	<script>
+
+		window.onload = ()=>{
+
+			document.fonts.ready.then(res => {
+				if(res.status === "loaded"){
+					document.body.classList.add("loaded")
+				}
+			})
+		}
+	</script>
 	</body>
 </html>

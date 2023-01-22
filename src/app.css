@@ -15,6 +15,13 @@
 body {
     font-family: GeneralSans-Variable, sans-serif;
     font-size: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+body.loaded {
+    opacity: 1;
+    transition: opacity 1.5s ease;
 }
 
 h1, h2 {
