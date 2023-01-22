@@ -1,5 +1,7 @@
 <script>
     import MixPanel from "$lib/mixpanel.svelte"
+
+
 </script>
 
 <MixPanel/>
