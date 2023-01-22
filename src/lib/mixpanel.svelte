@@ -1,7 +1,7 @@
 <script>
     import mixpanel from "mixpanel-browser"
     import {beforeUpdate, onMount} from "svelte";
-    import env from "../env.ts"
+    import env from "../env.ts";
 
     beforeUpdate(() => {
         mixpanel.init(env.mixpanel_id)

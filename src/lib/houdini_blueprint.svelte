@@ -1,5 +1,5 @@
 <section class="houdini-blueprint container mx-auto">
-    <iframe src="{blueprint_source}" class="blueprint"></iframe>
+    <iframe title="{title}" src="{blueprint_source}" class="blueprint"></iframe>
 </section>
 
 
@@ -10,6 +10,7 @@
      * Should pass in the source url.
      */
     export let blueprint_source
+    export let title = "blueprint"
 </script>
 
 <style lang="scss">
