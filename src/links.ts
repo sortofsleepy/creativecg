@@ -23,3 +23,33 @@ export default [
         url:"https://https://processing.org"
     }
 ]
+
+// Main links to each page
+export const page_links = [
+    {
+
+        href:"/webgl",
+        title:"WebGL"
+    },
+    {
+
+        href:"/webgpu",
+        title:"WebGPU"
+    },
+    {
+
+        href:"/vulkan",
+        title:"Vulkan"
+    },
+    {
+
+        href:"/houdini",
+        title:"Houdini"
+    },
+    {
+
+        href:"/unreal",
+        title:"Unreal Engine"
+    }
+]
+

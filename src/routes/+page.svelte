@@ -1,6 +1,6 @@
 <script>
-    import external_sources from "../external_sources";
     import MixPanel from "$lib/mixpanel.svelte"
+    import {page_links} from "../links";
 </script>
 
 <MixPanel/>
@@ -19,24 +19,39 @@
         Some of the topics will include
     </h2>
     <ul>
-        <li><a href="/webgl">WebGL</a></li>
-        <li><a href="/webgpu">WebGPU</a> </li>
-        <li><a href="/openframeworks">openFrameworks</a></li>
-        <li><a href="/vulkan">Vulkan</a></li>
-        <li><a href="/houdini">Houdini</a></li>
-        <li><a href="/unreal">UnrealEngine</a></li>
+
+        {#each page_links as link}
+            <li>
+                <a href="{link.href}">{link.title}</a>
+            </li>
+        {/each}
+
     </ul>
 
-    <section class="py-10">
+    <section class="pt-10">
         <h2 class="mt-8">
             Tech stack
         </h2>
 
         <p>
-            This site is purposely kept fairly simple and straightforward in terms of not just layout but the tech stack.
-            It uses <a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>,
+            This site is purposely kept fairly simple and straightforward and styled to be similar to CGWiki. Links will be at the top
+            and will link to each section on the page.
+
+            The tech stack is also relatively straightforward and
+            uses <a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>,
             <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">TailwindCSS</a> and server-side rendered using
             <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">Netlify</a>
+        </p>
+
+    </section>
+
+    <section class="pt-10">
+        <h2 class="mt-8">
+            About me
+        </h2>
+
+        <p>
+           If you'd like to learn a little about me, you can find out more <a href="http://about.xoio.co" target="_blank" rel="noreferrer">here</a>
         </p>
 
     </section>

@@ -18,7 +18,6 @@
 
                 if(itm.isIntersecting){
                     ref.src = url
-                    console.log("observed!")
                     observer.unobserve(ref)
                 }
             })

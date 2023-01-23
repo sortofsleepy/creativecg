@@ -2,6 +2,7 @@
     import HoudiniBlueprint from "$lib/houdini_blueprint.svelte"
     import MixPanel from "$lib/mixpanel.svelte"
     import Image from "$lib/image.svelte"
+    import Contents from "$lib/content.svelte"
 </script>
 
 <MixPanel/>
@@ -9,31 +10,19 @@
 <section class="mx-auto py-10">
     <h1 class="lg:text-8xl sm:text-5xl">Vulkan</h1>
 
-    <div class="py-10">
-        <h2>Contents</h2>
-        <ul class="page-list">
-            <li>
-                <a href="/vulkan/#willems">Sascha Willems Vulkan Samples</a>
-            </li>
-            <li>
-                <a href="/vulkan/#ash-vulkan">Ash - a Rust based Vulkan framework.</a>
-            </li>
-            <li>
-                <a href="/vulkan/#vulkan-guide">Vulkan Guide</a>
-            </li>
-        </ul>
-    </div>
+    <Contents/>
+
 </section>
 
 
-<section id="willems">
+<section id="willems" class="pt-20 content_section" data-link-title="Sascha Willems">
     <h2>Sascha Willems Vulkan Samples</h2>
     <a href="https://github.com/SaschaWillems/Vulkan" target="_blank" rel="noreferrer">
         Sascha Willems maintains a list of various Vulkan examples using C++.
     </a>
 </section>
 
-<section id="ash-vulkan" class="py-20">
+<section id="ash-vulkan" class="pt-20 content_section" data-link-title="Ash, A Rust based framework">
     <h2>Ash - A Rust Based Vulkan Framework</h2>
     <a href="https://github.com/SaschaWillems/Vulkan" target="_blank" rel="noreferrer">
         Ash is a Rust based "framework"
@@ -46,7 +35,7 @@
     </div>
 </section>
 
-<section id="vulkan-guide">
+<section id="vulkan-guide" class="pt-20 content_section" data-link-title="Vulkan Guide">
     <h2>Vulkan Guide</h2>
     <a href="https://vkguide.dev/" target="_blank" rel="noreferrer">
         An alternate Vulkan beginner tutorial.
