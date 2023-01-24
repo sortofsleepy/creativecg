@@ -50,6 +50,10 @@ export const page_links = [
 
         href:"/unreal",
         title:"Unreal Engine"
+    },
+    {
+        href: "/misc",
+        title: "Misc"
     }
 ]
 

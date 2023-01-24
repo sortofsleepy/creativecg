@@ -29,4 +29,4 @@
 </script>
 
 
-<img class="{className}" width="{width}" src="{url}" alt="{alt_text}" bind:this={ref}/>
+<img class="py-5 {className}" width="{width}" src="{url}" alt="{alt_text}" bind:this={ref}/>

@@ -32,3 +32,17 @@
     <Link url="https://www.clicktorelease.com/" />
 </section>
 
+
+<section id="akella" class="pt-20 content_section" data-link-title="Taotajima.jp breakdown">
+    <h2>Taotajima.jp WebGL deconstruction</h2>
+    <Image url="https://miro.medium.com/max/640/1*gMOR2bxZPIfy6FEYy3uNJg.gif"/>
+    <p>
+
+
+        Here, <a href="https://www.twitter.com/akella">@akella(Yuri Artiukh)</a> does a nice breakdown on one of the more interesting WebGL based
+        sites in recent years, a site for the photographer Tao Tajima. He goes a bit into how the main experience of the site was created and offers
+        a nice tutorial on how to achieve the effect.
+    </p>
+    <Link url="https://medium.com/@akella/taotajima-jp-webgl-deconstruction-af4946e8e8ed"/>
+</section>
+

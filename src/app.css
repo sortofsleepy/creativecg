@@ -35,9 +35,12 @@ h2 {
     font-size:120%;
 }
 
-a, p {
+p{
     font-size: 110%;
-    font-weight: 400;
+}
+
+a {
+    font-size: 105%;
 }
 
 a {
