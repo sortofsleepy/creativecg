@@ -17,6 +17,8 @@ body {
     font-size: 100%;
     opacity: 0;
     transition: opacity 1.5s ease;
+    background-color: #353549;
+    color: #afb1b2;
 }
 
 body.loaded {

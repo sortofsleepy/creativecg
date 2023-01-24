@@ -1,11 +1,10 @@
 <script>
-    import MixPanel from "$lib/mixpanel.svelte"
     import Link from "$lib/link.svelte"
     import Image from "$lib/image.svelte"
+    import Header from "$lib/header.svelte"
 </script>
 
-<MixPanel/>
-
+<Header/>
 <section class="mx-auto py-10">
     <h1 class="lg:text-8xl sm:text-5xl">Unreal Engine</h1>
 

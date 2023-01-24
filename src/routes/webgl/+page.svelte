@@ -1,13 +1,11 @@
 <script>
     import HoudiniBlueprint from "$lib/houdini_blueprint.svelte"
-    import MixPanel from "$lib/mixpanel.svelte"
     import Image from "$lib/image.svelte"
     import Link from "$lib/link.svelte"
     import Contents from "$lib/content.svelte"
     import Header from "$lib/header.svelte"
 </script>
 
-<MixPanel/>
 <Header/>
 <section class="mx-auto py-10">
 
