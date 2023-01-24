@@ -19,13 +19,11 @@
 </section>
 
 <script>
-    window.onload = () => {
-        document.fonts.ready.then(res => {
-            if (res.status === "loaded") {
-                document.body.classList.add("loaded")
-            }
-        })
-    }
+    document.fonts.ready.then(res => {
+        if (res.status === "loaded") {
+            document.body.classList.add("loaded")
+        }
+    })
 </script>
 
 </body>
