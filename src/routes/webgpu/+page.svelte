@@ -6,18 +6,28 @@
 </script>
 
 <Header/>
-<section class="mx-auto py-10">
 
-    <h1 class="lg:text-8xl sm:text-5xl">WebGL</h1>
+<section class="mx-auto py-10">
+    <h1 class="lg:text-8xl sm:text-5xl">WebGPU</h1>
     <Contents/>
 </section>
 
-<section id="schmidt" class="pt-20 content_section" data-link-title="Karsten Schmidt">
-    <h2>Karsten Schmidt</h2>
+<section id="wgpu" class="pt-20 content_section" data-link-title="wgpu">
+    <h2>wgpu</h2>
     <p>
-        Karsten Schmidt is well known in the creative coding arena and has produced a number of notable works over the years. These days he focuses on creating
-        thi.ng, his main set of tools for making work that seems to largely focus on the web with some smaller focuses on a few other areas.
+        wgpu is a Rust based framework for working with WebGPU. One of the nicest features about this is that it can compile
+        to WASM as well for browser functionality.
     </p>
-    <Link url="https://thi.ng/" text="thi.ng website"/>
+    <Link url="https://github.com/gfx-rs/wgpu" text="wgpu github page"/>
 </section>
 
+
+
+<section id="hexops-mach" class="pt-20 content_section" data-link-title="Hexops - Mach">
+    <h2>Hexops - Mach </h2>
+    <p class="pb-4">
+        Mach is a Zig based framework for working with WebGPU
+    </p>
+    <Image width="50%" url="https://user-images.githubusercontent.com/3173176/173177664-2ac9e90b-9429-4b09-aaf9-b80b53fee49f.gif"/>
+    <Link url="https://github.com/hexops/mach"/>
+</section>
