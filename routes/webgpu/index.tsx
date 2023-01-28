@@ -11,7 +11,7 @@ export default function Home() {
 
             <Header/>
             <section className="mx-auto py-10">
-                <h1 className="lg:text-8xl sm:text-5xl">Misc</h1>
+                <h1 className="lg:text-8xl sm:text-5xl">WebGPU</h1>
                 <Content/>
             </section>
 
