@@ -1,12 +1,14 @@
 import BaseLayout from "../../components/layout.tsx"
 import Content from "../../islands/content.tsx";
 import Link from "../../components/link.tsx";
+import Header from "../../islands/header.tsx";
 
 export default function Home() {
   return (
     <>
 
         <BaseLayout>
+            <Header/>
             <section className="mx-auto py-10 content_section">
                 <h1 className="lg:text-8xl sm:text-5xl">Unreal Engine</h1>
                 <div className="py-10">

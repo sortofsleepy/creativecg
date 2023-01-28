@@ -1,22 +1,20 @@
 import BaseLayout from "../../components/layout.tsx"
+import Link from "../../components/link.tsx"
 import Content from "../../islands/content.tsx";
+import Header from "../../islands/header.tsx";
 
 export default function Home() {
   return (
     <>
 
         <BaseLayout>
+            <Header/>
             <section className="mx-auto py-10">
                 <h1 className="lg:text-8xl sm:text-5xl">Misc</h1>
                 <Content/>
             </section>
 
 
-            <section className="mx-auto py-10">
-
-                <h1 className="lg:text-8xl sm:text-5xl">Misc</h1>
-                <Contents/>
-            </section>
 
             <section id="dustin" className="pt-20 content_section" data-link-title="Quick RenderDoc Tutotial">
                 <h2>Quick RenderDoc Tutorial </h2>
