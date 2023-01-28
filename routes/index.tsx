@@ -50,7 +50,10 @@ export default function Home({data}: PageProps) {
                     </h2>
 
                     <p>
-                      The tech stack is purposely kept sparse and simple.
+                      The tech stack is purposely kept sparse and simple. It uses Deno's <a href={"https://fresh.deno.dev/"} target="_blank" rel={"noreferrer"}>Fresh</a> framework and runs on Deno's network.
+                        Styling is helped out a bit with <a href={"https://tailwindcss.com/"} rel={"noreferrer"}>Tailwind</a>.
+                        The font is <a href={"https://www.fontshare.com/fonts/general-sans"} target="_blank" rel={"noreferrer"}>General Sans</a> by
+                        the <a href={"https://www.fontshare.com/?q=Indian%20Type%20Foundry"} target="_blank" rel={"noreferrer"}>Indian Type Foundry</a>
                     </p>
 
                 </section>
