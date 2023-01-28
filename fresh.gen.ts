@@ -5,6 +5,11 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/houdini/index.tsx";
 import * as $1 from "./routes/index.tsx";
+import * as $2 from "./routes/misc/index.tsx";
+import * as $3 from "./routes/unreal/index.tsx";
+import * as $4 from "./routes/vulkan/index.tsx";
+import * as $5 from "./routes/webgl/index.tsx";
+import * as $6 from "./routes/webgpu/index.tsx";
 import * as $$0 from "./islands/content.tsx";
 import * as $$1 from "./islands/header.tsx";
 
@@ -12,6 +17,11 @@ const manifest = {
   routes: {
     "./routes/houdini/index.tsx": $0,
     "./routes/index.tsx": $1,
+    "./routes/misc/index.tsx": $2,
+    "./routes/unreal/index.tsx": $3,
+    "./routes/vulkan/index.tsx": $4,
+    "./routes/webgl/index.tsx": $5,
+    "./routes/webgpu/index.tsx": $6,
   },
   islands: {
     "./islands/content.tsx": $$0,

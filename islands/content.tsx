@@ -10,8 +10,10 @@ export default function (props) {
 
     useEffect(() => {
         let _elements = Array.prototype.slice.call(document.querySelectorAll(`.${el_name}`))
+
         _elements = _elements.map(itm => {
             let name = itm.dataset.linkTitle
+
             return {
                 name,
                 href: `${window.location.pathname}/#${itm.id}`

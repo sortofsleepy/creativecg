@@ -4,7 +4,7 @@ interface Link {
     href: string,
     title: string
 }
-
+// TODO tie in pagelinks component
 export default function () {
 
     const [links, set_links] = useState([])
@@ -59,6 +59,15 @@ export default function () {
                 <p>Topics</p>
                 <div className="subtopics">
 
+                    <ul>
+                        {links.map(link => {
+                            return (
+                                <li>
+                                    <a href={link.href}>{link.title}</a>
+                                </li>
+                            )
+                        })}
+                    </ul>
                 </div>
             </nav>
         </header>
