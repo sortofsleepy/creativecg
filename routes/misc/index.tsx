@@ -12,37 +12,18 @@ export default function Home() {
             </section>
 
 
-            <section id="vex-ref" className="pt-20 content_section" data-link-title="Common Vex attributes">
-                <h2>Common Vex attribute and type reference</h2>
-                <p className="py-4">
-                    John Kunz has taken the time to to construct a handy reference guide to common Vex related types and
-                    attributes you might run into.
-                    It contains a number of helpful things like available global variables as well as things like Vellum
-                    attributes </p>
-                <a href="https://www.johnkunz.com/vex" target="_blank" rel="noreferrer">
-                    Link</a>
+            <section className="mx-auto py-10">
 
+                <h1 className="lg:text-8xl sm:text-5xl">Misc</h1>
+                <Contents/>
             </section>
 
-            <section id="cgwiki" className="pt-20 content_section" data-link-title="CGWiki">
-                <h2>CGWiki</h2>
-                <p className="py-4">A site by @tokeru that contains a bunch of little tutorials on different techniques
-                    in Houdini.</p>
-                <img src="/cgwiki.png" width="70%"/>
-                <a href="https://www.tokeru.com/cgwiki/?title=Houdini" target="_blank" rel="noreferrer">
-                    Link
-                </a>
-            </section>
-
-            <section id="junichiro" className="pt-20 content_section" data-link-title="Junichiro Horikawa">
-                <h2>Junichiro Horikawa</h2>
-                <p className="py-4"> Junichiro Horikawa is a Japanese designer that produces mostly English tutorials on
-                    Youtube. Primarily focused on Houdini, he does also give tutorials on other
-                    topics like Blender and Grasshopepr.</p>
-                <br/>
-                <a href="https://www.youtube.com/@JunichiroHorikawa" target="_blank" rel="noreferrer">
-                    Youtube Channel
-                </a>
+            <section id="dustin" className="pt-20 content_section" data-link-title="Quick RenderDoc Tutotial">
+                <h2>Quick RenderDoc Tutorial </h2>
+                <p>
+                    Dustin H Land wrote up a brief tutorial on how to step through RenderDoc when it comes to Vulkan.
+                </p>
+                <Link url="https://www.fasterthan.life/blog/2017/7/11/i-am-graphics-and-so-can-you-part-2-intuition"/>
             </section>
 
 
