@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: 'GeneralSans-Variable';
+    src: url('/fonts/GeneralSans-Variable.woff2') format('woff2'),
+    url('/fonts/GeneralSans-Variable.woff') format('woff'),
+    url('/fonts/GeneralSans-Variable.ttf') format('truetype');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+body {
+    font-family: GeneralSans-Variable, sans-serif;
+    font-size: 100%;
+    transition: opacity 1.5s ease;
+    background-color: #353549;
+    color: #afb1b2;
+}
+
+body.loaded {
+    opacity: 1;
+    transition: opacity 1.5s ease;
+}
+
+h1, h2 {
+    letter-spacing: 0.1px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size:120%;
+}
+
+p{
+    font-size: 110%;
+}
+
+a {
+    font-size: 105%;
+}
+
+a {
+    color: rgb(96 165 250);
+    transition:color 0.5s ease;
+}
+
+a:hover {
+    color:red;
+    transition:color 0.5s ease;
+}
+
+header {
+    display: flex;
+}
+
+.subtopics {
+    position: absolute;
+    z-index: 2;
+    background:rgba(0,0,0,0.8);
+    opacity:0;
+    overflow: hidden;
+    height:0;
+    transition: all 0.5s ease;
+}
+
+nav{
+    margin-left:20px;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+nav:hover > .subtopics {
+    opacity: 1;
+    padding:20px;
+    height:auto;
+    transition: all 0.5s ease;
+}

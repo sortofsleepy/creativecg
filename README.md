@@ -1,13 +1,11 @@
-Graphically Creative
-===
+# fresh project
 
-A mini site mean to serve as a sort of notebook for various topics. 
+### Usage
 
+Start the project:
 
-Setup
-===
-* `npm install`
-* `npm run dev` to start dev server
+```
+deno task start
+```
 
-
- 
+This will watch the project directory and restart as necessary.
