@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/setup-notes-site.iml" filepath="$PROJECT_DIR$/.idea/setup-notes-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/creativecg.iml" filepath="$PROJECT_DIR$/.idea/creativecg.iml" />
     </modules>
   </component>
 </project>

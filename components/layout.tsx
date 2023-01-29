@@ -21,6 +21,7 @@ export default function ({children}: Props) {
                 <meta name="author" content="Joseph Chow"/>
                 <meta name="viewport" content="width=device-width"/>
 
+                <script type="text/javascript" src={"/mixpanel.js"}></script>
             </Head>
             <main className="container mx-auto px-72 py-10">
                 {children}
