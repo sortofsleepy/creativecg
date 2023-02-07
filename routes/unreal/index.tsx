@@ -37,6 +37,15 @@ export default function Home() {
 
             </section>
 
+            <section id={"meta-sounds"} className="pt-20 content_section" data-link-title="Unreal Engine Meta Sounds">
+                <h2>Unreal Engine MetaSounds Tutorial on CDM</h2>
+
+                <p className="py-4">
+                    <Link url="https://twitter.com/mattspendlove" text="Peter Kirn"/> has a tutorial on <Link url="https://cdm.link/2023/02/learn-modular-metasounds-in-unreal-free/" text="cdm.link"/> about Unreal Engine's
+                    MetaSounds system.
+                </p>
+                <img src="https://cdm.link/app/uploads/2023/02/unreal-metasounds-1024x576.jpeg" alt="unreal engine patch system"/>
+            </section>
 
         </BaseLayout>
 

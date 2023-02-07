@@ -1,6 +1,7 @@
 import BaseLayout from "../../components/layout.tsx"
 import Content from "../../islands/content.tsx";
 import Header from "../../islands/header.tsx";
+import Link from "../../components/link.tsx"
 
 export default function Home() {
   return (
@@ -47,7 +48,15 @@ export default function Home() {
                 </a>
             </section>
 
-
+            <section id="vertex-anim-textures" className="pt-20 content_section" data-link-title="Vertex Animation Textures for the web">
+                <h2>Vertex Animation Textures for the web</h2>
+                <p className="py-4">
+                    <Link url="https://twitter.com/mike_lyndon/status/1613204223361159168" text="Mike Lyndon"/> has gotten vertex animation textures working
+                    in Three.js
+                </p>
+                <img class="py-4" src="https://pbs.twimg.com/ext_tw_video_thumb/1613202414475280386/pu/img/GbppFw1jMIPOho8X.jpg" alt="video poster of things working"/>
+                <Link url="https://twitter.com/mike_lyndon/status/1613204223361159168"/>
+            </section>
         </BaseLayout>
 
     </>
