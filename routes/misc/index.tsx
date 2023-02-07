@@ -25,6 +25,16 @@ export default function Home() {
             </section>
 
 
+            <section id="death-stranding" className="pt-20 content_section" data-link-title="Breakdown of Death Stranding VFX">
+                <h2>A Brief Breakdown of some of the VFX behind Death Stranding </h2>
+                <p>
+                    <Link url="https://twitter.com/_mamoniem" text="@_mamoniem"/> does a pretty interesting breakdown about some of the techniques used in Death Stranding.
+                </p>
+                <img class="py-5" src="https://mamoniem.com/wp-content/uploads/2022/11/ds_snow_mirroredRT_demonstration.jpg"/>
+                <Link url="https://mamoniem.com/behind-the-pretty-frames-death-stranding/"/>
+            </section>
+
+
         </BaseLayout>
 
     </>
