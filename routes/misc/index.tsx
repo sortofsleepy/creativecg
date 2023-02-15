@@ -15,7 +15,6 @@ export default function Home() {
             </section>
 
 
-
             <section id="dustin" className="pt-20 content_section" data-link-title="Quick RenderDoc Tutotial">
                 <h2>Quick RenderDoc Tutorial </h2>
                 <p>
@@ -34,6 +33,17 @@ export default function Home() {
                 <Link url="https://mamoniem.com/behind-the-pretty-frames-death-stranding/"/>
             </section>
 
+            <section id="sdf-polygon-generator" className="pt-20 content_section"
+                     data-link-title="SDF Polygon Generator">
+                <h2>SDF Polygon Generator</h2>
+                <p>
+                    User <Link url="https://www.shadertoy.com/user/fenix" text="@fenix"/> created a user friendly SDF shape generator.  You can manipulate the points
+                    and even get a read out of vertex positions to use.
+                </p>
+                <img className="py-5"
+                     src="https://pbs.twimg.com/media/Fo1v9CjWYAAhyeP?format=jpg&name=small"/>
+                <Link url="https://www.shadertoy.com/view/dtBSDw"/>
+            </section>
 
         </BaseLayout>
 
