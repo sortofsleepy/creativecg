@@ -45,6 +45,18 @@ export default function Home() {
                 <Link url="https://www.shadertoy.com/view/dtBSDw"/>
             </section>
 
+            <section id="dreamworks-moonray" className="pt-20 content_section"
+                     data-link-title="Dreamworks Moonray Renderer">
+                <h2>Dreamworks Moonray Renderer is open-sourced. </h2>
+                <p>
+                    Dreamworks recently open-sourced their  <Link url="https://openmoonray.org/" text="Moonray"/> renderer which has been used in production work like
+                    "How to Train Your Dragon". After a cursory glance, it seems like the way to use it is via a command line tool, not sure if it can be integrated into other
+                    things as-is.
+                </p>
+                <img className="py-5"
+                     src="https://openmoonray.org/images/paper.png"/>
+                <Link url="https://openmoonray.org/"/>
+            </section>
         </BaseLayout>
 
     </>
