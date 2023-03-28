@@ -57,6 +57,17 @@ export default function Home() {
                      src="https://openmoonray.org/images/paper.png"/>
                 <Link url="https://openmoonray.org/"/>
             </section>
+
+            <section id="weta-water" className="pt-20 content_section"
+                     data-link-title="Avatar 2 water">
+                <h2>A Behind-the-Scenes Look at Avatar 2's Water Technology </h2>
+                <p>
+                    Digital visual effects company Wētā Digital – now part of the Unity family – has recently shared a comprehensive blog post showcasing the tools and solutions they developed for James Cameron's Academy Award-winning Avatar: The Way of Water.
+                </p>
+                <img className="py-5"
+                     src="https://cdn.80.lv/api/upload/content/65/images/640eb420eef10/widen_920x0.jpeg"/>
+                <Link url="https://80.lv/articles/a-behind-the-scenes-look-at-avatar-2-s-water-technology/?es_id=ba217a7897"/>
+            </section>
         </BaseLayout>
 
     </>
